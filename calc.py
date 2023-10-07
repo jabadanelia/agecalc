@@ -1,5 +1,7 @@
+from datetime import datetime
+
 byear = int(input("Enter your birthyear: "))
+cyear = datetime.now().year
 
 
-
-print(2022 - byear)
+print(cyear - byear)
